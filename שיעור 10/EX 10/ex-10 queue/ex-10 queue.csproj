@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{23BDF0FE-B940-464F-B541-5FD2E6ED8A28}</ProjectGuid>
+    <ProjectGuid>{15FDE7D8-57BC-4385-809C-3405460CED78}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EX_10___queue</RootNamespace>
-    <AssemblyName>EX 10 - queue</AssemblyName>
+    <RootNamespace>ex_10_queue</RootNamespace>
+    <AssemblyName>ex-10 queue</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

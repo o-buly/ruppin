@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EX 10 - queue")]
+[assembly: AssemblyTitle("ex-10 queue")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EX 10 - queue")]
+[assembly: AssemblyProduct("ex-10 queue")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("23bdf0fe-b940-464f-b541-5fd2e6ed8a28")]
+[assembly: Guid("15fde7d8-57bc-4385-809c-3405460ced78")]
 
 // Version information for an assembly consists of the following four values:
 //
