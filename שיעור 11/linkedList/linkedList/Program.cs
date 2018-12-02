@@ -42,6 +42,9 @@ namespace linkedList
             list2.addSorted(12);
             list2.addSorted(3);
             list2.printList();
+            Console.WriteLine("class test  :");
+            list2.remove(12); // בדיקה בכיתה !
+            list2.printList();
 
 
         }
@@ -83,24 +86,30 @@ namespace linkedList
             }
             public void insertAfter(node temp, int value)
             {
-                node curr = new node(value);
-                curr.next = temp.next;
-                temp.next = curr;
+                if (temp != null)
+                {
+                    node curr = new node(value);
+                    curr.next = temp.next;
+                    temp.next = curr;
+                }
+                else
+                {
+                    Console.WriteLine("ERROR !!!! ");
+                }
             }
-            public void addSorted(int valueToAdd)
+            public void addSorted(int valueToAdd) //10->5->12->3 (not sorted)
             {
                 node NEW = new node(valueToAdd);
                 node prev = null;
                 node temp = head;
-                while((temp!=null)&&(valueToAdd>temp.value))
+                while ((temp != null) && (valueToAdd > temp.value))
                 {
                     prev = temp;
                     temp = temp.next;
                 }
-                if(prev==null)
+                if (prev == null)
                 {
-                    NEW.next = temp;
-                    head = NEW;
+                    insertFirst(valueToAdd);
                 }
                 else
                 {
@@ -147,17 +156,31 @@ namespace linkedList
             }
             public void remove(int valueToRemove)
             {
-                node prev=head;
-                for (node temp= head; temp != null; prev = temp, temp = temp.next)
+                if (head==null)
                 {
-                    if (temp.value == valueToRemove)
-                    {
-                        prev.next = temp.next;
-                        return;
-                    }
+                    return;
                 }
-                Console.WriteLine("there is no such value in this linklist");
-
+                if (head.value == valueToRemove)
+                {
+                    removeFirst();
+                }
+                else if (head != null)
+                {
+                    node prev = head;
+                    for (node temp = head; temp != null; prev = temp, temp = temp.next)
+                    {
+                        if (temp.value == valueToRemove)
+                        {
+                            prev.next = temp.next;
+                            return;
+                        }
+                    }
+                    Console.WriteLine("there is no such value in this linklist");
+                }
+                else
+                {
+                    Console.WriteLine("NULL !!!!!");
+                }
             }
             public void printList()
             {
