@@ -15,6 +15,13 @@ namespace properties
             p1.id = 305253932;
             p1.name = "ofir";
             p1.print();
+            Student p2 = new Student();
+            p2.age = 12;
+            p2.id = 65476542;
+            p2.name = "nathaniel";
+            p2.print();
+            Student p3 = new Student();
+            p3.print();
         }
     }
 }

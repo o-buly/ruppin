@@ -8,6 +8,14 @@ namespace properties
 {
     class Student
     {
+        static int counter = 0;
+        public Student()
+        {
+            name = "DEF";
+            id = 0;
+            age = 0;
+            counter++;
+        }
         public int id;
         public string name;
         public int age;
@@ -26,7 +34,14 @@ namespace properties
         {
             get
             {
-                return name + " levi";
+                if (name != "ofir")
+                {
+                    if (name != "nathaniel")
+                        return name;
+                    return name + " masharki";
+                }
+                else
+                    return name + " levi ";
             }
             set
             {
@@ -46,7 +61,7 @@ namespace properties
         }
         public void print()
         {
-            Console.WriteLine($"{Id}\n{Name}\n{Age}");
+            Console.WriteLine($"*id*: {Id}\n*name*: {Name}\n*age*: {Age}\n*counter*: {counter}");
         }
     }
 }
