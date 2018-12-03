@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enum", "enum\enum.csproj", "{E3C783F6-AD0D-49FB-A83F-FD867B64B64D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enum ex2", "enum ex2\enum ex2.csproj", "{A4AE0850-6F8E-46D5-811E-7D22ABF706FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E3C783F6-AD0D-49FB-A83F-FD867B64B64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3C783F6-AD0D-49FB-A83F-FD867B64B64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3C783F6-AD0D-49FB-A83F-FD867B64B64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AE0850-6F8E-46D5-811E-7D22ABF706FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AE0850-6F8E-46D5-811E-7D22ABF706FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AE0850-6F8E-46D5-811E-7D22ABF706FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AE0850-6F8E-46D5-811E-7D22ABF706FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
