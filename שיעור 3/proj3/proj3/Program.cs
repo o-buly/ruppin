@@ -11,15 +11,15 @@ namespace proj3
         static void Main(string[] args)
         {
             /* סעיף 1 !!! */
-            //Console.WriteLine("enter a number");
-            //int num = int.Parse(Console.ReadLine());
-            //int factorial = 1, i = 1;
-            //while(i<=num)
-            //{
-            //    factorial *= i;
-            //    i++;
-            //}
-            //Console.WriteLine("the factorial is : " + factorial);
+            Console.WriteLine("enter a number");
+            int num = int.Parse(Console.ReadLine());
+            int factorial = 1, i = 1;
+            while (i <= num)
+            {
+                factorial *= i;
+                i++;
+            }
+            Console.WriteLine("the factorial is : " + factorial);
 
 
             /* סעיף 2 !!!  */
@@ -66,30 +66,30 @@ namespace proj3
 
 
             /* סעיף 5 !!! */
-            Console.WriteLine("enter a number");
-            int num = int.Parse(Console.ReadLine());
-            double numDIV2 = Math.Sqrt(num);
-            int counter = 2;
-            bool isPRIME = true;
-            if (num == 1 || num == 0)
-            {
-                Console.WriteLine("the number is NOT a prime number !");
-                return;
-            }
-            while(counter<=numDIV2)
-            {
-                if (num % counter == 0)
-                {
-                    Console.WriteLine("the number is NOT a prime number !");
-                    isPRIME = false;
-                    break;
-                }
-                counter++;
-            }
-            if (isPRIME)
-            {
-                Console.WriteLine("the number is a prime number !");
-            }
+            //Console.WriteLine("enter a number");
+            //int num = int.Parse(Console.ReadLine());
+            //double numDIV2 = Math.Sqrt(num);
+            //int counter = 2;
+            //bool isPRIME = true;
+            //if (num == 1 || num == 0)
+            //{
+            //    Console.WriteLine("the number is NOT a prime number !");
+            //    return;
+            //}
+            //while(counter<=numDIV2)
+            //{
+            //    if (num % counter == 0)
+            //    {
+            //        Console.WriteLine("the number is NOT a prime number !");
+            //        isPRIME = false;
+            //        break;
+            //    }
+            //    counter++;
+            //}
+            //if (isPRIME)
+            //{
+            //    Console.WriteLine("the number is a prime number !");
+            //}
         }
     }
 }
