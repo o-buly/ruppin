@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion + Fibonacci + han
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanoi", "Hanoi\Hanoi.csproj", "{52B80CA7-A937-4775-8D42-FA1F32BEE5CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree", "Binary Tree\Binary Tree.csproj", "{C2AFCE88-DD8E-4DFB-9875-52516622D06D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Tree_CLASS_EX", "Binary Tree\Binary_Tree_CLASS_EX.csproj", "{C2AFCE88-DD8E-4DFB-9875-52516622D06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_Tree", "Binary_Tree\Binary_Tree.csproj", "{50332B8E-4A1B-4E80-B385-95B31E8434F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C2AFCE88-DD8E-4DFB-9875-52516622D06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2AFCE88-DD8E-4DFB-9875-52516622D06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2AFCE88-DD8E-4DFB-9875-52516622D06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50332B8E-4A1B-4E80-B385-95B31E8434F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50332B8E-4A1B-4E80-B385-95B31E8434F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50332B8E-4A1B-4E80-B385-95B31E8434F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50332B8E-4A1B-4E80-B385-95B31E8434F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
